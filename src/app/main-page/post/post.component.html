@@ -1,0 +1,14 @@
+<div class="post-container">
+    <div class="title-container">
+        <img src="https://via.placeholder.com/64x64" class="profile-photo">
+        <h3 class="title">{{ post.title | titlecase }}</h3>
+        <a class="prrrt" href="#" (click)="OnDelete()" *ngIf="!isDeleted">Delete</a>
+        <span class="prrrt" *ngIf="isDeleted">Post is deleted</span>
+    </div>
+    <div class="text-container">
+        <p>{{post.text}}</p>
+    </div>
+    <div class="date-container">
+        Created by: "{{post.createdBy}}" {{ (post.createdAt * 1000) | amTimeAgo }}
+    </div>
+</div>

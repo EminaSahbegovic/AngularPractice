@@ -1,0 +1,6 @@
+<form [formGroup]="data" (submit)="onFormSubmitted()">
+  <input name="title" placeholder="title" formControlName="title">
+  <input name="createdBy" placeholder="created by" formControlName="createdBy">
+  <textarea name="text" formControlName="text"></textarea>
+  <button type="submit">Submit</button>
+</form>

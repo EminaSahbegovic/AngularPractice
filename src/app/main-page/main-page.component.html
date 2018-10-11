@@ -1,0 +1,10 @@
+<!-- <app-post [post]="testPost"></app-post>
+<app-post [post]="testPost2"></app-post>  -->
+
+<a href="/create">Create new blog post</a>
+
+<div class="page-container">
+    <div *ngFor="let currentPostInTheArray of posts">
+        <app-post [post]="currentPostInTheArray"></app-post>
+    </div>
+</div>

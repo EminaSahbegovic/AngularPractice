@@ -1,0 +1,31 @@
+.title-container * {
+    display: inline-block;
+}
+
+.profile-photo {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.title {
+    position: relative;
+    bottom: 7px;
+    left: 5px;
+}
+
+.date-container {
+    float: right;
+}
+
+.post-container {
+    margin: 10px;
+    border: #999 solid 1px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.prrrt {
+    float: right;
+}
